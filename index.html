@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Janarthanan S - Textile Technology Undergraduate focused on sustainable and technical textiles.">
+    <title>Janarthanan S | Textile Technology Undergraduate</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Janarthanan.</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#assignments" class="nav-link">Assignments</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link contact-btn">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <h1 class="hero-title">Weaving <span class="highlight">Sustainability</span> into the Future of Textiles
+                </h1>
+                <p class="hero-subtitle">Janarthanan S | Textile Technology Undergraduate</p>
+                <p class="hero-description">Hands-on experience in manufacturing, spinning, and quality control.
+                    Passionate
+                    about sustainable innovations.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+
+            <div class="hero-avatar-container">
+                <div class="avatar-animation-wrapper antigravity">
+                    <div class="orbit-ring"></div>
+                    <div class="particle p1"></div>
+                    <div class="particle p2"></div>
+                    <div class="particle p3"></div>
+                    <div class="spinning-badge">
+                        <svg viewBox="0 0 100 100" width="100" height="100">
+                            <defs>
+                                <path id="circlePath" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" />
+                            </defs>
+                            <text font-size="11" font-weight="900" fill="var(--primary-color)" letter-spacing="2">
+                                <textPath href="#circlePath" startOffset="0%">• SUSTAINABLE • TEXTILES • INNOVATOR
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+
+                    <input type="file" id="avatarUpload" accept="image/*" hidden>
+                    <label for="avatarUpload" class="avatar-upload-wrapper">
+                        <img id="avatarPreview" src="Janarthanan S.jpeg" alt="Janarthanan S"
+                            style="width: 220px; height: 220px; border-radius: 50%; object-fit: cover; display: block; z-index: 2;">
+                        <div class="avatar-placeholder" id="avatarPlaceholder" style="display: none;">
+                            <i class="fas fa-camera upload-icon"></i>
+                            <span class="upload-text">Upload Your Photo</span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="hero-background-overlay"></div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I am a motivated and detail-driven <strong>Textile Technology student</strong> with exposure to
+                        both traditional and modern textile processes. My academic journey and industrial training have
+                        helped me understand textiles from fiber to finished garment.</p>
+                    <p>I enjoy working at the intersection of <strong>technology, sustainability, and quality</strong>.
+                        I am particularly interested in natural dyeing, textile testing, product development, and
+                        merchandising, aiming to improve both product performance and environmental responsibility.</p>
+                    <div class="core-strengths">
+                        <h3>Core Strengths</h3>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Analytical thinking & process understanding</li>
+                            <li><i class="fas fa-check-circle"></i> Strong communication & teamwork</li>
+                            <li><i class="fas fa-check-circle"></i> Adaptability in industrial environments</li>
+                            <li><i class="fas fa-check-circle"></i> Continuous learner with a sustainability mindset
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Student</h3>
+                        <p>Textile Tech</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Focus</h3>
+                        <p>Sustainability</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-cogs"></i>
+                        <h3>Skills</h3>
+                        <p>Manufacturing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="date">2024 – 2027</div>
+                        <h3>Bachelor of Technology – Textile Technology</h3>
+                        <p class="institution">Kumaraguru College of Technology, Coimbatore</p>
+                        <p class="grade">CGPA: 7.4</p>
+                        <ul class="learning-areas">
+                            <li>Textile Manufacturing & Spinning</li>
+                            <li>Fabric & Yarn Analysis</li>
+                            <li>Textile Testing & Quality Control</li>
+                            <li>Sustainable & Technical Textiles</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="date">2023 – 2024</div>
+                        <h3>Diploma in Textile Technology</h3>
+                        <p class="institution">Polytechnic / Institute Name (PSG Polytechnic College)</p>
+                        <p class="grade">Percentage: 82%</p>
+                        <ul class="learning-areas">
+                            <li>Practical Production Techniques</li>
+                            <li>Testing Methods</li>
+                            <li>Process Control</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Project</h2>
+            <div class="project-card featured">
+                <div class="project-info">
+                    <h3>Butterfly Pea Flower Natural Extract Dye</h3>
+                    <p class="project-type">Diploma Final Project – Sustainable Textile Dyeing</p>
+                    <p>This project focused on extracting natural dye from butterfly pea flower using eco-friendly
+                        methods and applying it to textile substrates as a sustainable alternative to synthetic dyes.
+                    </p>
+                    <div class="project-details">
+                        <h4>Key Contributions</h4>
+                        <ul>
+                            <li>Extracted natural dye using environmentally safe processes.</li>
+                            <li>Applied dye to textile materials and studied shade variations.</li>
+                            <li>Evaluated color depth, uniformity, and fastness properties.</li>
+                        </ul>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">Natural Dyeing</span>
+                        <span class="tag">Sustainability</span>
+                        <span class="tag">Research</span>
+                        <span class="tag">Testing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="assignments" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Assignments</h2>
+            <div class="assignments-grid">
+                <div class="assignment-card">
+                    <div class="assignment-header">
+                        <i class="fas fa-file-alt"></i>
+                        <h3>Textile Fiber Classification</h3>
+                    </div>
+                    <p class="assignment-subject">Subject: Textile Materials & Testing</p>
+                    <p>Detailed study and classification of natural and synthetic textile fibers based on their
+                        properties, applications, and performance characteristics.</p>
+                    <div class="assignment-tags">
+                        <span class="tag">Research</span>
+                        <span class="tag">Fiber Science</span>
+                    </div>
+                </div>
+                <div class="assignment-card">
+                    <div class="assignment-header">
+                        <i class="fas fa-flask"></i>
+                        <h3>Fabric Strength Analysis</h3>
+                    </div>
+                    <p class="assignment-subject">Subject: Textile Testing & Quality Control</p>
+                    <p>Lab-based assignment analyzing tensile strength, tear resistance, and abrasion properties of
+                        various fabric types using standard testing methods.</p>
+                    <div class="assignment-tags">
+                        <span class="tag">Lab Work</span>
+                        <span class="tag">Quality Control</span>
+                    </div>
+                </div>
+                <div class="assignment-card">
+                    <div class="assignment-header">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Sustainable Textile Practices</h3>
+                    </div>
+                    <p class="assignment-subject">Subject: Sustainable Textiles</p>
+                    <p>Report on eco-friendly dyeing processes, organic fiber sourcing, and zero-waste manufacturing
+                        approaches in the modern textile industry.</p>
+                    <div class="assignment-tags">
+                        <span class="tag">Sustainability</span>
+                        <span class="tag">Report</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Industrial Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="exp-header">
+                        <h3>Motherland</h3>
+                        <span class="role">Textile Manufacturing Exposure</span>
+                    </div>
+                    <ul class="exp-list">
+                        <li>Hands-on exposure to spinning processes.</li>
+                        <li>Understanding weaving and sizing operations.</li>
+                        <li>Insight into domestic and international sales operations.</li>
+                        <li>Observed workflow from raw material to finished fabric.</li>
+                    </ul>
+                </div>
+                <div class="experience-card">
+                    <div class="exp-header">
+                        <h3>Value Fashion Garment Company</h3>
+                        <span class="role">Garment Production Training</span>
+                    </div>
+                    <ul class="exp-list">
+                        <li>End-to-end garment production knowledge.</li>
+                        <li>Cutting, stitching, finishing, and quality checks.</li>
+                        <li>Understanding production efficiency and defect control.</li>
+                        <li>Exposure to industrial garment workflows.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-wrapper">
+                <div class="skill-category">
+                    <h3>Production & Testing</h3>
+                    <div class="skill-tags">
+                        <span>Textile Manufacturing</span>
+                        <span>Spinning Operations</span>
+                        <span>Fabric Analysis</span>
+                        <span>Yarn Analysis</span>
+                        <span>Quality Control</span>
+                        <span>Textile Standards</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Specialized Knowledge</h3>
+                    <div class="skill-tags">
+                        <span>Sustainable Textiles</span>
+                        <span>Technical Textiles</span>
+                        <span>Natural Dyeing</span>
+                        <span>Merchandising</span>
+                        <span>Product Quality</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span>Emotional Intelligence</span>
+                        <span>Communication</span>
+                        <span>Leadership</span>
+                        <span>Problem Solving</span>
+                        <span>Adaptability</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="languages-section">
+                <h3>Languages</h3>
+                <div class="language-cards">
+                    <div class="lang-card">
+                        <h4>Tamil</h4>
+                        <p>Native Proficiency</p>
+                    </div>
+                    <div class="lang-card">
+                        <h4>English</h4>
+                        <p>Proficient</p>
+                    </div>
+                    <div class="lang-card">
+                        <h4>Hindi</h4>
+                        <p>Beginner</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="section bg-light">
+        <div class="container center-text">
+            <h2 class="section-title">Achievements</h2>
+            <ul class="achievement-list">
+                <li><i class="fas fa-trophy"></i> Qualified for <strong>Second and Third Levels</strong> in
+                    <strong>Acharya District-Level Competitions</strong>.
+                </li>
+                <li><i class="fas fa-hand-holding-heart"></i> <strong>PSG – BRAINS Trust</strong> Volunteering
+                    Certificate for social service.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container">
+            <h2 class="footer-title">Let's Connect</h2>
+            <p>Open to internships, industrial training, and entry-level opportunities.</p>
+            <div class="contact-links">
+                <a href="mailto:janarthanans061@gmail.com" class="contact-item">
+                    <i class="fas fa-envelope"></i> janarthanans061@gmail.com
+                </a>
+                <a href="tel:+918807245417" class="contact-item">
+                    <i class="fas fa-phone"></i> +91 8807245417
+                </a>
+                <a href="https://www.linkedin.com/in/janarthanan-s-0a2596266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    class="contact-item"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/janarthanans061-byte" class="contact-item"><i class="fab fa-github"></i>
+                    GitHub</a>
+            </div>
+            <p class="copyright">&copy; 2024 Janarthanan S. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
